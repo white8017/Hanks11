@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1911F07C1C8D84F600A1EC05 /* favoritesBookNameVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1911F07B1C8D84F600A1EC05 /* favoritesBookNameVC.swift */; };
+		1911F07E1C900B8600A1EC05 /* depositVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1911F07D1C900B8600A1EC05 /* depositVC.swift */; };
+		1911F2781C95D3CD00A1EC05 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1911F2771C95D3CD00A1EC05 /* libz.tbd */; };
+		1911F27A1C95D3DD00A1EC05 /* libicucore.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1911F2791C95D3DD00A1EC05 /* libicucore.tbd */; };
+		1911F27C1C95D3E800A1EC05 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1911F27B1C95D3E800A1EC05 /* MessageUI.framework */; };
+		1911F27E1C95D3F500A1EC05 /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1911F27D1C95D3F500A1EC05 /* JavaScriptCore.framework */; };
+		1911F2821C95D40C00A1EC05 /* libstdc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 1911F2811C95D40C00A1EC05 /* libstdc++.tbd */; };
+		193887C21C7D4D9A00647A62 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193887C11C7D4D9A00647A62 /* AppDelegate.swift */; };
+		193887C41C7D4D9A00647A62 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 193887C31C7D4D9A00647A62 /* ViewController.swift */; };
+		193887C71C7D4D9A00647A62 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193887C51C7D4D9A00647A62 /* Main.storyboard */; };
+		193887C91C7D4D9A00647A62 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 193887C81C7D4D9A00647A62 /* Assets.xcassets */; };
+		193887CC1C7D4D9A00647A62 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 193887CA1C7D4D9A00647A62 /* LaunchScreen.storyboard */; };
+		196637BE1C965608001310F1 /* SMS_SDKLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 196637B91C965608001310F1 /* SMS_SDKLocalizable.strings */; };
+		196637BF1C965608001310F1 /* MOBFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196637BB1C965608001310F1 /* MOBFoundation.framework */; };
+		196637C01C965608001310F1 /* SMS_SDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 196637BC1C965608001310F1 /* SMS_SDK.framework */; };
+		196637C41C97A5E8001310F1 /* rentHistoryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196637C31C97A5E8001310F1 /* rentHistoryVC.swift */; };
+		196637C61C97E02C001310F1 /* NSDATE.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196637C51C97E02C001310F1 /* NSDATE.swift */; };
+		196637C81C992582001310F1 /* imgUploadPhp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196637C71C992582001310F1 /* imgUploadPhp.swift */; };
+		196637CA1C997A31001310F1 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 196637C91C997A31001310F1 /* test.swift */; };
+		196637CC1C997C19001310F1 /* android.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 196637CB1C997C19001310F1 /* android.jpg */; };
+		19F1CC131C868D2500C76A3B /* Page2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F1CC121C868D2500C76A3B /* Page2ViewController.swift */; };
+		19F1CC151C86B4C900C76A3B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 19F1CC141C86B4C900C76A3B /* LoginViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1911F07B1C8D84F600A1EC05 /* favoritesBookNameVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = favoritesBookNameVC.swift; sourceTree = "<group>"; };
+		1911F07D1C900B8600A1EC05 /* depositVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = depositVC.swift; sourceTree = "<group>"; };
+		1911F2771C95D3CD00A1EC05 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1911F2791C95D3DD00A1EC05 /* libicucore.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libicucore.tbd; path = usr/lib/libicucore.tbd; sourceTree = SDKROOT; };
+		1911F27B1C95D3E800A1EC05 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		1911F27D1C95D3F500A1EC05 /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		1911F2811C95D40C00A1EC05 /* libstdc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.tbd"; path = "usr/lib/libstdc++.tbd"; sourceTree = SDKROOT; };
+		193887BE1C7D4D9A00647A62 /* Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		193887C11C7D4D9A00647A62 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		193887C31C7D4D9A00647A62 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		193887C61C7D4D9A00647A62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		193887C81C7D4D9A00647A62 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		193887CB1C7D4D9A00647A62 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		193887CD1C7D4D9A00647A62 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		196637B61C9653AA001310F1 /* SMSSDK-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SMSSDK-Bridging-Header.h"; sourceTree = "<group>"; };
+		196637BA1C965608001310F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/SMS_SDKLocalizable.strings; sourceTree = "<group>"; };
+		196637BB1C965608001310F1 /* MOBFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MOBFoundation.framework; sourceTree = "<group>"; };
+		196637BC1C965608001310F1 /* SMS_SDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SMS_SDK.framework; sourceTree = "<group>"; };
+		196637BD1C965608001310F1 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/SMS_SDKLocalizable.strings"; sourceTree = "<group>"; };
+		196637C31C97A5E8001310F1 /* rentHistoryVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = rentHistoryVC.swift; sourceTree = "<group>"; };
+		196637C51C97E02C001310F1 /* NSDATE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSDATE.swift; sourceTree = "<group>"; };
+		196637C71C992582001310F1 /* imgUploadPhp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imgUploadPhp.swift; sourceTree = "<group>"; };
+		196637C91C997A31001310F1 /* test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		196637CB1C997C19001310F1 /* android.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = android.jpg; sourceTree = "<group>"; };
+		19F1CC121C868D2500C76A3B /* Page2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Page2ViewController.swift; sourceTree = "<group>"; };
+		19F1CC141C86B4C900C76A3B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		193887BB1C7D4D9A00647A62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196637BF1C965608001310F1 /* MOBFoundation.framework in Frameworks */,
+				1911F2821C95D40C00A1EC05 /* libstdc++.tbd in Frameworks */,
+				1911F27E1C95D3F500A1EC05 /* JavaScriptCore.framework in Frameworks */,
+				1911F27C1C95D3E800A1EC05 /* MessageUI.framework in Frameworks */,
+				196637C01C965608001310F1 /* SMS_SDK.framework in Frameworks */,
+				1911F27A1C95D3DD00A1EC05 /* libicucore.tbd in Frameworks */,
+				1911F2781C95D3CD00A1EC05 /* libz.tbd in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		193887B51C7D4D9A00647A62 = {
+			isa = PBXGroup;
+			children = (
+				196637B61C9653AA001310F1 /* SMSSDK-Bridging-Header.h */,
+				1911F27B1C95D3E800A1EC05 /* MessageUI.framework */,
+				1911F27D1C95D3F500A1EC05 /* JavaScriptCore.framework */,
+				193887C01C7D4D9A00647A62 /* SMS-SDK(Swift) */,
+				193887BF1C7D4D9A00647A62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		193887BF1C7D4D9A00647A62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				193887BE1C7D4D9A00647A62 /* Project.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		193887C01C7D4D9A00647A62 /* SMS-SDK(Swift) */ = {
+			isa = PBXGroup;
+			children = (
+				196637B81C965608001310F1 /* SMS_SDK */,
+				196637B41C9650EF001310F1 /* tbd */,
+				193887C11C7D4D9A00647A62 /* AppDelegate.swift */,
+				193887C31C7D4D9A00647A62 /* ViewController.swift */,
+				19F1CC141C86B4C900C76A3B /* LoginViewController.swift */,
+				19F1CC121C868D2500C76A3B /* Page2ViewController.swift */,
+				1911F07B1C8D84F600A1EC05 /* favoritesBookNameVC.swift */,
+				1911F07D1C900B8600A1EC05 /* depositVC.swift */,
+				196637C31C97A5E8001310F1 /* rentHistoryVC.swift */,
+				196637C71C992582001310F1 /* imgUploadPhp.swift */,
+				193887C51C7D4D9A00647A62 /* Main.storyboard */,
+				196637CB1C997C19001310F1 /* android.jpg */,
+				193887C81C7D4D9A00647A62 /* Assets.xcassets */,
+				193887CA1C7D4D9A00647A62 /* LaunchScreen.storyboard */,
+				193887CD1C7D4D9A00647A62 /* Info.plist */,
+				196637C51C97E02C001310F1 /* NSDATE.swift */,
+				196637C91C997A31001310F1 /* test.swift */,
+			);
+			name = "SMS-SDK(Swift)";
+			path = "線上資料庫";
+			sourceTree = "<group>";
+		};
+		196637B41C9650EF001310F1 /* tbd */ = {
+			isa = PBXGroup;
+			children = (
+				1911F2811C95D40C00A1EC05 /* libstdc++.tbd */,
+				1911F2791C95D3DD00A1EC05 /* libicucore.tbd */,
+				1911F2771C95D3CD00A1EC05 /* libz.tbd */,
+			);
+			name = tbd;
+			path = ..;
+			sourceTree = "<group>";
+		};
+		196637B81C965608001310F1 /* SMS_SDK */ = {
+			isa = PBXGroup;
+			children = (
+				196637B91C965608001310F1 /* SMS_SDKLocalizable.strings */,
+				196637BB1C965608001310F1 /* MOBFoundation.framework */,
+				196637BC1C965608001310F1 /* SMS_SDK.framework */,
+			);
+			path = SMS_SDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		193887BD1C7D4D9A00647A62 /* Project */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 193887D01C7D4D9A00647A62 /* Build configuration list for PBXNativeTarget "Project" */;
+			buildPhases = (
+				193887BA1C7D4D9A00647A62 /* Sources */,
+				193887BB1C7D4D9A00647A62 /* Frameworks */,
+				193887BC1C7D4D9A00647A62 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Project;
+			productName = "線上資料庫";
+			productReference = 193887BE1C7D4D9A00647A62 /* Project.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		193887B61C7D4D9A00647A62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "韓家豪";
+				TargetAttributes = {
+					193887BD1C7D4D9A00647A62 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = Z247AAQF46;
+					};
+				};
+			};
+			buildConfigurationList = 193887B91C7D4D9A00647A62 /* Build configuration list for PBXProject "Project" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = 193887B51C7D4D9A00647A62;
+			productRefGroup = 193887BF1C7D4D9A00647A62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				193887BD1C7D4D9A00647A62 /* Project */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		193887BC1C7D4D9A00647A62 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196637BE1C965608001310F1 /* SMS_SDKLocalizable.strings in Resources */,
+				193887CC1C7D4D9A00647A62 /* LaunchScreen.storyboard in Resources */,
+				193887C91C7D4D9A00647A62 /* Assets.xcassets in Resources */,
+				196637CC1C997C19001310F1 /* android.jpg in Resources */,
+				193887C71C7D4D9A00647A62 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		193887BA1C7D4D9A00647A62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				196637C81C992582001310F1 /* imgUploadPhp.swift in Sources */,
+				19F1CC151C86B4C900C76A3B /* LoginViewController.swift in Sources */,
+				196637C41C97A5E8001310F1 /* rentHistoryVC.swift in Sources */,
+				196637CA1C997A31001310F1 /* test.swift in Sources */,
+				1911F07C1C8D84F600A1EC05 /* favoritesBookNameVC.swift in Sources */,
+				193887C41C7D4D9A00647A62 /* ViewController.swift in Sources */,
+				1911F07E1C900B8600A1EC05 /* depositVC.swift in Sources */,
+				19F1CC131C868D2500C76A3B /* Page2ViewController.swift in Sources */,
+				196637C61C97E02C001310F1 /* NSDATE.swift in Sources */,
+				193887C21C7D4D9A00647A62 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		193887C51C7D4D9A00647A62 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				193887C61C7D4D9A00647A62 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		193887CA1C7D4D9A00647A62 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				193887CB1C7D4D9A00647A62 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		196637B91C965608001310F1 /* SMS_SDKLocalizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				196637BA1C965608001310F1 /* en */,
+				196637BD1C965608001310F1 /* zh-Hans */,
+			);
+			name = SMS_SDKLocalizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		193887CE1C7D4D9A00647A62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		193887CF1C7D4D9A00647A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		193887D11C7D4D9A00647A62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMS_SDK",
+					"$(PROJECT_DIR)/SinchVerification",
+					2/objc,
+					"$(PROJECT_DIR)/SinchVerification",
+					2/swift,
+					"$(PROJECT_DIR)/SinchVerification",
+					2,
+					"$(PROJECT_DIR)/線上資料庫/SMS_SDK",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = "線上資料庫/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hankagou.-----";
+				PRODUCT_NAME = Project;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SMSSDK-Bridging-Header.h";
+			};
+			name = Debug;
+		};
+		193887D21C7D4D9A00647A62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SMS_SDK",
+					"$(PROJECT_DIR)/SinchVerification",
+					2/objc,
+					"$(PROJECT_DIR)/SinchVerification",
+					2/swift,
+					"$(PROJECT_DIR)/SinchVerification",
+					2,
+					"$(PROJECT_DIR)/線上資料庫/SMS_SDK",
+					"$(SDKROOT)$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+				INFOPLIST_FILE = "線上資料庫/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "hankagou.-----";
+				PRODUCT_NAME = Project;
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "SMSSDK-Bridging-Header.h";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		193887B91C7D4D9A00647A62 /* Build configuration list for PBXProject "Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193887CE1C7D4D9A00647A62 /* Debug */,
+				193887CF1C7D4D9A00647A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		193887D01C7D4D9A00647A62 /* Build configuration list for PBXNativeTarget "Project" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				193887D11C7D4D9A00647A62 /* Debug */,
+				193887D21C7D4D9A00647A62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 193887B61C7D4D9A00647A62 /* Project object */;
+}
