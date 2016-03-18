@@ -127,7 +127,7 @@ class ViewController: UIViewController,NSURLSessionDelegate, NSURLSessionDownloa
                             UIView.transitionWithView(self.view, duration: 1.5, options: UIViewAnimationOptions.CurveEaseInOut, animations: { () -> Void in
 
                                 self.txtVerificationCode.frame = CGRectMake(Screen.width / 2 - 150, 35, 300, 40)
-                                self.txtVerificationCode.alpha = 1
+//                                self.txtVerificationCode.alpha = 1
                                 
                                 }) { (Bool) -> Void in
                                     return true
